@@ -28,13 +28,20 @@ public class C2_HiddenWordHardMode {
 
             while (scanner.hasNextLine()) {
                 String line = scanner.nextLine();
-                /* TODO: your code goes here */
+                int start = line.indexOf("*");
+                int end = line.indexOf("~");
 
+                // consulted java oracle documents
+                if (start != -1 && end != -1) {
+                    System.out.print(line.substring(start + 1, end) + " ");
+                }
             }
+
             scanner.close();
+
         } catch (FileNotFoundException e) {
             System.out.println("An error occurred: " + e.getMessage());
         }
     }
-
 }
+

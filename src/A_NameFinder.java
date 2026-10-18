@@ -21,6 +21,7 @@ public class A_NameFinder {
 
 
         return email.substring(0, email.indexOf("@"));
+        //consulted java oracle documents for help with index.Of
     }
 
 }
