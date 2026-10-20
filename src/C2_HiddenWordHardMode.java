@@ -26,6 +26,7 @@ public class C2_HiddenWordHardMode {
             File file = new File(fileName);
             Scanner scanner = new Scanner(file);
 
+
             while (scanner.hasNextLine()) {
                 String line = scanner.nextLine();
                 int start = line.indexOf("*");
