@@ -12,7 +12,7 @@ public class A_NameFinder {
     }
 
     public A_NameFinder() {
-        String email = "kim_possible25@milton.edu";
+        String email = "will_obrein21@milton.edu";
         System.out.println("Username: " + findUsername(email)); // Output: Username: kim_possible25
     }
 
